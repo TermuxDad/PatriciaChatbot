@@ -3,15 +3,14 @@ import os
 from heroku3 import from_key
 from pyrogram import Client
 
-API_ID = int(os.environ.get("API_ID", "6"))
-API_HASH = os.environ.get("API_HASH", "eb06d4abfb49dc3eeb1aeb98ae0f581e")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
-ARQ_API_KEY = "XQYJAL-HTSZIK-YALWDS-TJPWMO-ARQ" 
-LANGUAGE = "hi"
-ARQ_API_BASE_URL = "https://thearq.tech"
-
-
 class Config(object):
+    API_ID = int(os.environ.get("API_ID", "6"))
+    API_HASH = os.environ.get("API_HASH", "eb06d4abfb49dc3eeb1aeb98ae0f581e")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
+    ARQ_API_KEY = "XQYJAL-HTSZIK-YALWDS-TJPWMO-ARQ" 
+    LANGUAGE = "hi"
+    ARQ_API_BASE_URL = "https://thearq.tech"
+   
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "PATRICIA_ROBOT")
     # Leave this defualt
     SESSION_NAME = os.environ.get("SESSION_NAME", "JV_CaptchaBot")
