@@ -3,3 +3,6 @@ python-arq
 TgCrypto
 heroku3
 pymongo
+requests
+asyncio
+dnspython
