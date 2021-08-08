@@ -1,6 +1,6 @@
 #Special File created by @piroXpower
 from pymongo import MongoClient
-from config import Config
+from modules.play import Config
 
 class manage_db():
     def __init__(self):
