@@ -1,4 +1,4 @@
-from config import Config
+from modules.play import Config
 from requests import get
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, ChatPermissions, CallbackQuery
