@@ -5,9 +5,9 @@ from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, 
 import random
 import asyncio
 import json
-from helper.db import manage_db
+from modules.db import manage_db
 from pyrogram.errors import UserNotParticipant
-from helper.markup import MakeCaptchaMarkup
+from modules.markup import MakeCaptchaMarkup
 # Prepare bot
 app = Client(Config.SESSION_NAME, api_id=Config.APP_ID, api_hash=Config.API_HASH, bot_token=Config.BOT_TOKEN)
 # Local database for saving user info
