@@ -5,7 +5,7 @@ from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, 
 import random
 import asyncio
 import json
-from modules.db import manage_db
+from modules.dbfunc import manage_db
 from pyrogram.errors import UserNotParticipant
 from modules.markup import MakeCaptchaMarkup
 # Prepare bot
